@@ -35,7 +35,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-buildx-
 
-    - name: Build and push Next.js Docker image
+    - name: Build and push rtmp nginx
       uses: docker/build-push-action@v3  # Ensure you're using the latest version
       with:
         context: ./
